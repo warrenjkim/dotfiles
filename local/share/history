@@ -1,0 +1,27 @@
+ls
+vim .zprofile
+ls
+cd "$(dirname "$(fzf)")"
+ls
+lcd ..
+cd ..
+ls
+cd zsh
+ls
+vim .zshrc
+cd ..
+ls
+cd ..
+ls
+cd .config
+ls
+cd zsh
+ls
+cd
+ls
+vim .zprofile
+source .zprofile
+ls
+vim .xprofile
+vim .xinitrc
+vim .xprofile

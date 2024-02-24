@@ -1,0 +1,46 @@
+format = """\
+[  ](244)\
+[ :]()\
+$time\
+[]()\
+$directory\
+[]()\
+$git_branch\
+$cmd_duration\
+\n$character\
+"""
+
+# [-](fg:#3B76F0 bg:#FCF392)\
+[directory]
+format = "[ $path ]($style)[$read_only]($read_only_style)"
+style = "white"
+read_only = " "
+read_only_style = "52"
+disabled = false
+
+[git_branch]
+format = '[ $symbol$branch(:$remote_branch) ]($style)'
+symbol = " "
+style = "108"
+
+[git_status]
+format = '[$all_status]($style)'
+style = "fg:#1C3A5E bg:#FCF392"
+
+[hg_branch]
+format = "[ $symbol$branch ]($style)"
+symbol = " "
+
+[cmd_duration]
+format = "[ ~$duration ]($style)"
+style = ""
+
+[character]
+success_symbol = '[ >](108) '
+error_symbol = '[ >](52) '
+vimcmd_symbol = '[ <](108)'
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+format = '[[ 󱑍 $time ](fg:108)]($style)'
