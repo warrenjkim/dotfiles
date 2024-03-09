@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "password": false,
+  "pid": 12506,
+  "port": 8888,
+  "root_dir": "/home/warren/UCLA/W24/ECEC147/project",
+  "secure": false,
+  "sock": "",
+  "token": "cf22c0c7f6ea2dda37c38729e8668dc31866cf23f42fe6eb",
+  "url": "http://localhost:8888/",
+  "version": "2.13.0"
+}

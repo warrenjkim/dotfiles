@@ -1,0 +1,20 @@
+[default-routes]
+alsa_card.pci-0000_09_00.1:output:hdmi-output-0:channelMap=FL;FR;
+alsa_card.pci-0000_09_00.1:output:hdmi-output-0:channelVolumes=0.059318721294403;0.059318721294403;
+alsa_card.pci-0000_09_00.1:output:hdmi-output-0:iec958Codecs=
+alsa_card.pci-0000_09_00.1:output:hdmi-output-0:latencyOffsetNsec=0
+alsa_card.pci-0000_09_00.1:profile:off=hdmi-output-0;
+alsa_card.pci-0000_09_00.1:profile:output:hdmi-stereo=hdmi-output-0;
+alsa_card.pci-0000_09_00.1:profile:output:hdmi-stereo-extra1=hdmi-output-0;
+alsa_card.usb-Blue_Microphones_Yeti_Stereo_Microphone_797_2021_05_03_53970-00:output:analog-output-speaker:channelMap=FL;FR;
+alsa_card.usb-Blue_Microphones_Yeti_Stereo_Microphone_797_2021_05_03_53970-00:output:analog-output-speaker:channelVolumes=0.0010001831687987;0.0010001831687987;
+alsa_card.usb-Blue_Microphones_Yeti_Stereo_Microphone_797_2021_05_03_53970-00:output:analog-output-speaker:latencyOffsetNsec=0
+alsa_card.usb-Blue_Microphones_Yeti_Stereo_Microphone_797_2021_05_03_53970-00:profile:output:analog-stereo+input:analog-stereo=analog-output-speaker;
+alsa_card.usb-MOTU_M2_M20000034337-00.3:output:\oOut\c\sLine1:channelMap=FL;FR;
+alsa_card.usb-MOTU_M2_M20000034337-00.3:output:\oOut\c\sLine1:channelVolumes=0.99899327754974;0.99899327754974;
+alsa_card.usb-MOTU_M2_M20000034337-00.3:output:\oOut\c\sLine1:latencyOffsetNsec=0
+alsa_card.usb-MOTU_M2_M20000034337-00.3:profile:HiFi=[Out] Line1;
+alsa_card.usb-MOTU_M2_M20000034337-00:output:\oOut\c\sLine1:channelMap=FL;FR;
+alsa_card.usb-MOTU_M2_M20000034337-00:output:\oOut\c\sLine1:channelVolumes=1.0;1.0;
+alsa_card.usb-MOTU_M2_M20000034337-00:output:\oOut\c\sLine1:latencyOffsetNsec=0
+alsa_card.usb-MOTU_M2_M20000034337-00:profile:HiFi=[Out] Line1;

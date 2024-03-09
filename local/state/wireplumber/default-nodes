@@ -1,0 +1,4 @@
+[default-nodes]
+default.configured.audio.sink=alsa_output.usb-MOTU_M2_M20000034337-00.HiFi__hw_M2__sink
+default.configured.audio.sink.0=alsa_output.usb-MOTU_M2_M20000034337-00.HiFi__hw_M2__sink
+default.configured.audio.sink.1=alsa_output.usb-MOTU_M2_M20000034337-00.3.HiFi__hw_M2__sink

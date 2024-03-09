@@ -1,0 +1,13 @@
+{
+  "shell_port": 42231,
+  "iopub_port": 39477,
+  "stdin_port": 60217,
+  "control_port": 59841,
+  "hb_port": 55935,
+  "ip": "127.0.0.1",
+  "key": "b4abde90-758a1c91da1679b25f17912e",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "linux-venv",
+  "jupyter_session": "/home/warren/UCLA/W24/ECEC147/project/Project.ipynb"
+}
