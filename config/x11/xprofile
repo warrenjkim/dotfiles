@@ -10,7 +10,7 @@ setcase c86414 &
 
 xrdb ${XDG_CONFIG_HOME:-$HOME/.config}/x11/xresources & xrdbpid=$!	# Uncomment to use Xresources colors/settings on startup
 
-autostart="xcompmgr unclutter pipewire remapd dunst"
+autostart="unclutter pipewire remapd dunst picom"
 
 for program in $autostart; do
 	pidof -sx "$program" || "$program" &
