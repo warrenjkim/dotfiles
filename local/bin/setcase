@@ -1,7 +1,0 @@
-#!/bin/sh
-
-liquidctl initialize all
-
-liquidctl --match kraken set sync color fixed $1 &&
-liquidctl --match smart set sync color fixed $1 &&
-liquidctl --match gigabyte set sync color fixed $1 

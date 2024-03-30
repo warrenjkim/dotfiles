@@ -1,46 +1,42 @@
 format = """\
-[  ](244)\
-[ :]()\
-$time\
-[]()\
+[<](244)\
 $directory\
-[]()\
 $git_branch\
-$cmd_duration\
-\n$character\
+[>](244)\
+$character\
 """
+# [󰀵 ](244)\
+# [-](244)\
+# $time\
+# [](244)\
+# $directory\
+# [](244)\
 
 # [-](fg:#3B76F0 bg:#FCF392)\
+
 [directory]
-format = "[ $path ]($style)[$read_only]($read_only_style)"
+format = "[$path/]($style)[$read_only]($read_only_style)"
 style = "white"
 read_only = " "
 read_only_style = "52"
 disabled = false
+truncation_length = 0
+truncate_to_repo = false
 
 [git_branch]
-format = '[ $symbol$branch(:$remote_branch) ]($style)'
+format = '[ $symbol$branch(:$remote_branch)]($style)'
 symbol = " "
 style = "108"
-
-[git_status]
-format = '[$all_status]($style)'
-style = "fg:#1C3A5E bg:#FCF392"
 
 [hg_branch]
 format = "[ $symbol$branch ]($style)"
 symbol = " "
 
-[cmd_duration]
-format = "[ ~$duration ]($style)"
-style = ""
-
 [character]
-success_symbol = '[ >](108) '
-error_symbol = '[ >](52) '
-vimcmd_symbol = '[ <](108)'
+success_symbol = '[:](108) '
+error_symbol = '[:](52) '
 
-[time]
-disabled = false
-time_format = "%R" # Hour:Minute Format
-format = '[[ 󱑍 $time ](fg:108)]($style)'
+# [time]
+# disabled = false
+# time_format = "%R" # Hour:Minute Format
+# format = '[[ 󱑍 $time ](fg:108)]($style)'

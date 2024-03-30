@@ -1,0 +1,18 @@
+#!/bin/zsh
+
+declare -A sessions
+sessions[math]="$HOME/UCLA/W24/MATH110A"
+sessions[ai]="$HOME/UCLA/W24/ECEC147"
+sessions[db]="$HOME/UCLA/W24/CS143"
+sessions[dev]="$HOME/dev"
+
+for session in "${(@k)sessions}"; do
+    dir=${sessions[$session]}
+    if ! tmux has-session -t $session 2>/dev/null; then 
+        tmux new-session -d -s $session -c "$dir"
+    fi
+done
+
+tmux list-sessions
+exit
+
